@@ -20,8 +20,8 @@ jobs:
       - name: Fetch README.md from source repo
         run: |
           curl -o README.md https://raw.githubusercontent.com/kostable/kumeka_bootcamp/main/README.md
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "yaros18"
+          git config --global user.email "qazw63@gmail.com"
           git add README.md
           git commit -m "Update README.md from source repo" || echo "No changes to commit"
           git push
